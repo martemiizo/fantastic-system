@@ -7,7 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="test" />
+        <module name="kval" />
+        <module name="fantastic-system" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fantastic-system" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
